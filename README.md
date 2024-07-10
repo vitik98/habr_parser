@@ -5,8 +5,7 @@ Habr Parser
 
 2) Инструкция по сборке и запуску:
 
-Установка зависимостей
-Для работы парсера необходимы библиотеки requests, beautifulsoup4 и pandas. Их можно установить с помощью следующей команды:
+Установка зависимостей. Для работы парсера необходимы библиотеки requests, beautifulsoup4 и pandas. Их можно установить с помощью следующей команды:
 
 bash (pip install requests beautifulsoup4 pandas openpyxl)
 
