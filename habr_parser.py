@@ -42,7 +42,6 @@ def parse_habr(keyword):
             else:
                 print("One of the required tags (title, author, date) was not found in the article.")
 
-        # Check if there is a next page link
         next_page_tag = soup.find("a", {"data-test-id": "pagination-next-page"})
         if next_page_tag and 'href' in next_page_tag.attrs:
             current_page += 1
